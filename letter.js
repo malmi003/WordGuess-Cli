@@ -2,7 +2,7 @@
 
 let Letter = function (char) {
     // A string value to store the underlying character for the letter
-    this.char = char;
+    this.letter = char;
 
     // A boolean value that stores whether that letter has been guessed yet
     this.hasBeenGuessedBool = false;
@@ -10,18 +10,15 @@ let Letter = function (char) {
     // A function that returns the underlying character if the letter has been guessed, or a placeholder (like an underscore) if the letter has not been guessed
     this.returnChar = function () {
         if (this.hasBeenGuessedBool) {
-            return char;
+            return this.letter;
         } else return "_ "
     }
 
     // A function that takes a character as an argument and checks it against the underlying character, updating the stored boolean value to true if it was guessed correctly
     this.compareLetters = function (guessedChar) {
-        if (guessedChar == this.char) {
+        if (guessedChar == this.letter) {
             this.hasBeenGuessedBool = true;
         }
-
-        //may change this line so functions remain separate...
-        console.log(this.returnChar());
     }
 }
 

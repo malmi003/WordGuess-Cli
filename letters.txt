@@ -1,0 +1,1 @@
+[{"letter":"h","hasBeenGuessedBool":true},{"letter":"u","hasBeenGuessedBool":false},{"letter":"b","hasBeenGuessedBool":false},{"letter":"b","hasBeenGuessedBool":false},{"letter":"l","hasBeenGuessedBool":false},{"letter":"e","hasBeenGuessedBool":false}]

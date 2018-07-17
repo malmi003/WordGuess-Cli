@@ -19,6 +19,7 @@ let Letter = function (char) {
         if (guessedChar == this.letter) {
             this.hasBeenGuessedBool = true;
         }
+        
     }
 }
 
